@@ -5,14 +5,11 @@ name: default
 steps:
 
 - name: install
-  image: node:15.12.0-alpine
   commands:
     - npm ci
 - name: build
-  image: node:15.12.0-alpine
   commands:
     - npm run build
 - name: publish
-  image: node:15.12.0-alpine
   commands:
     - npm run start
