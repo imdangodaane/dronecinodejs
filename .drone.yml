@@ -4,9 +4,13 @@ name: default
 
 steps:
 
-- name: backend
+- name: install
   image: node:15.12.0-alpine
   commands:
-  - npm install
-  - npm run build
-  - npm run start
+    - npm ci
+- name: build
+  commands:
+    - npm run build
+- name: publish
+  commands:
+    - npm run start
