@@ -12,6 +12,10 @@ steps:
   image: node
   commands:
     - npm run build
+- name: start
+  image: node
+  commands:
+    - npm run start
 - name: publish
   image: node
   commands:
