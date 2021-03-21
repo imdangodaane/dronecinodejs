@@ -4,11 +4,9 @@ name: default
 
 steps:
 
-- name: build
+- name: Install, build and start
   image: node
   commands:
     - npm ci
     - npm run build
-- name: start
-  commands:
     - npm run start
