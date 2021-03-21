@@ -7,12 +7,12 @@ platform:
   arch: amd64
 
 steps:
-  - name: Install node_modules
+- name: Install node_modules
   commands:
-    - npm ci
-  - name: Build
+  - npm ci
+- name: Build
   commands:
-    - npm run build
-  - name: Start
+  - npm run build
+- name: Start
   commands:
-    - npm run start
+  - npm run start
