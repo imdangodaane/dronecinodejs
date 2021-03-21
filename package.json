@@ -1,0 +1,28 @@
+{
+  "name": "dronecinodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "rm -rf build && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imdangodaane/dronecinodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imdangodaane/dronecinodejs/issues"
+  },
+  "homepage": "https://github.com/imdangodaane/dronecinodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "tslint-config-airbnb": "^5.11.2"
+  }
+}
