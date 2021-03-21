@@ -1,10 +1,11 @@
 kind: pipeline
+type: exec
 name: default
 
 steps:
 - name: Install node_modules
   commands:
-  - npm ci
+  - npm i
 - name: Build
   commands:
   - npm run build
