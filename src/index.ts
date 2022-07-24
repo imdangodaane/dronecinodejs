@@ -4,6 +4,7 @@ const main = () => {
   console.log('Hằng đẹp gái quá má ui!!!');
   console.log('Qui new commit!');
   console.log('Test 2022-07-24');
+  console.log('Test 1');
 };
 
 main();
